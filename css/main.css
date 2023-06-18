@@ -224,6 +224,10 @@ h2 {
     grid-template-areas: "datos mapa" "datos mapa";
     grid-template-columns: 50% 50%;
   }
+  form.datos {
+    border-radius: 10px;
+    font-family: "Montserrat";
+  }
 }
 /* FORMULARIO DE CONTACTO */
 #grilla-contacto {
@@ -276,7 +280,7 @@ iframe {
 
 form.datos {
   border-radius: 10px;
-  margin: 16%;
+  margin: 10%;
   font-family: "Montserrat";
 }
 
