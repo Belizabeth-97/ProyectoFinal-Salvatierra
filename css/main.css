@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: rgba(239, 228, 224, 0.8784313725);
+  background-color: rgba(213, 187, 177, 0.57);
   overflow-x: hidden;
 }
 
@@ -54,12 +54,11 @@ h2 {
 }
 
 .menu a {
-  color: #49403a;
+  color: rgba(73, 64, 58, 0.5803921569);
   text-decoration: none;
   padding: 5px 15px;
   border-radius: 7%;
   font-family: "Montserrat";
-  opacity: 0.6;
   transition: all 0.5s;
 }
 
@@ -298,6 +297,7 @@ input[type=text], input[type=tel], input[type=email] {
 .compras {
   text-align: center;
   font-family: "Montserrat";
+  padding-bottom: 10%;
 }
 
 .compras h1 {

@@ -53,12 +53,11 @@ h2{
 }
 
 .menu a {
-    color: $color-letra-principal;
+    color: $color-letra-menu;
     text-decoration: none;
     padding: 5px 15px;
     border-radius: 7%;
     font-family: $fuente-principal;
-    opacity: 0.6;
     transition: all .5s;
 }
 
@@ -314,6 +313,7 @@ input[type=text], input[type=tel], input[type=email]{
 .compras {
     text-align: center;
     font-family: $fuente-principal;
+    padding-bottom: 10%;
 }
 
 .compras h1{
