@@ -39,7 +39,7 @@ h2{
 
 .logo{
     display: inline-flex;
-    width: 30%;
+    width: 50%;
     row-gap: 50%;
 }
 
@@ -140,6 +140,7 @@ h2{
     font-family: $fuente-principal;
     color: $color-letra-principal;
     gap: 35px;
+    margin-top: -25%;
 }
 
 /* ACCESO A REDES SOCIALES */
@@ -187,6 +188,7 @@ h2{
 
     .logo{
         display: inline-flex;
+        width: 30%;
         row-gap: 50%;
     }
 
@@ -226,6 +228,7 @@ h2{
        flex-direction: row;
        justify-content: center;
        flex-wrap: wrap;
+       margin-top: -35%;
     }
     
     #grilla-contacto{
@@ -284,7 +287,8 @@ h2{
 /* MAPA DEL LUGAR */
 iframe{
     @include ajuste(80%, 75%);
-    margin: 12%;
+    margin-top: 15%;
+    margin-left: 10%;
 }
 
 form.datos{
@@ -339,9 +343,9 @@ input[type="submit" i]:hover {
     color: #49403a;
 }
 
-/* INFORMECION COMO COMPRAR */
+/* INFORMACION COMO COMPRAR */
 .textoComoComprar {
     padding-top: 5%;
+    padding-left: 5%;
     font-family: $fuente-principal;
-    text-align: center;
 }
